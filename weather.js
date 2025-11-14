@@ -12,7 +12,7 @@ const notfounding = document.querySelector(".not-found");
 const weathersummaryimg=document.querySelector(".weather-summary-img");
 const currentdate=document.querySelector(".current-date-txt");
 const forecastitemscontainer=document.querySelector(".forecast-items-container");
-const apikey= 'fb36b7de2e009cdfe2c1cee1dc0f2a89';
+const apikey= 'API KEY';
 
 searchBtn.addEventListener("click", () => {
     const cityName = cityinput.value.trim();
